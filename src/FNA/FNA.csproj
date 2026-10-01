@@ -11,6 +11,7 @@
 
         <AssemblyTitle>FNA</AssemblyTitle>
         <Version>26.11.0.0</Version>
+        <PathMap>$(MSBuildProjectDirectory)\$(IntermediateOutputPath)=.</PathMap>
     </PropertyGroup>
 
     <ItemGroup>
